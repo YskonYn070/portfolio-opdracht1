@@ -10,8 +10,8 @@ class TrainingTest {
         @Test
         public void LeeftijdsCheckWeigering() {
             Training training= new Training(16, 5);
-            assertFalse(training.LeeftijdsCheck(12,3 ));
-            assertTrue(training. LeeftijdsCheck (17,1 ));
-            assertTrue(training. LeeftijdsCheck (9,8 )); } }
+            assertFalse(training.LeeftijdsCheckWeigering(12,3 ));
+            assertTrue(training. LeeftijdsCheckWeigering (17,1 ));
+            assertTrue(training. LeeftijdsCheckWeigering (9,8 )); } }
 
-}
+
